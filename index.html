@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS PWEB JS</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); *{font-family: 'Poppins', sans-serif};</style>
+    <style>
+        .kontainer {
+            transform: scale(1.12);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kontainer h-[100vh] flex justify-center items-center flex-col gap-12">
+        <p id="header" class="font-bold text-3xl mb-14">Yakin kan Profesi Anda !</p>
+        <div class="bg-[#DBDBDB] w-[640px] h-[369px] rounded-[30px] relative">
+            <img class="w-[219px] absolute -top-8 left-[50%] translate-x-[-50%] translate-y-0"
+                src="foto/detektif.png" alt="">
+            <div class="z-10 absolute top-[50%] gap-4 left-0 right-0 flex items-center flex-col">
+                <div class="bg-[#FEEEE2] w-[475px] h-[56px] rounded-[20px] flex justify-center items-center">
+                    <p class="font-bold">Apakah anda seorang Detective ?</p>
+                </div>
+                <div class="w-[25rem] h-[56px] flex justify-evenly items-center">
+                    <tombol id="iya" type="tombol" class="bg-[#6FD240] h-[41px] w-[157px] rounded-[12px] flex justify-center items-center">
+                        <p class="font-bold">Iya!!</p>
+                    </tombol>
+                    <tombol id="tidak" type="tombol"
+                        class="bg-[#E12E2E] text-white h-[41px] w-[157px] rounded-[12px] flex justify-center items-center">
+                        <p class="font-bold">Tidak!!</p>
+                    </tombol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
